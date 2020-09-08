@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //目标：获取登陆数据并在页面显示
+            //1. 页面加载设置登陆状态与未登录状态数据隐藏
+            $(".login_out").hide();
+            $(".login").hide();
+
+            //2.发送异步请求获取登陆数据
+            $.post({
+                url: "UserServlet",
+                data: {action: "getUserLoginData"},
+                dataType: "json",
+                //3.判断登陆数据是否有效
+                success: function (userData) {
+                    if (userData) {
+                        //3.1有效，设置登陆状态可见
+                        $(".login span").text("欢迎回来" + userData.username);
+                        $(".login").show();
+                        $("#myFavorite").attr("href","myfavorite.html?uid="+userData.uid)
+                    } else {
+                        //3.2无效，设置未登录状态可见
+                        $(".login_out").show();
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                    //3.3系统错误，提示服务器忙
+                    alert("服务器忙，请稍后再试...")
+                }
+            });
+
+            //3.异步请求获取所有类别数据更新到页面上
+            $.post({
+                url: "CategoryServlet",
+                data: {action: "findCategory"},
+                dataType: "json",
+                success: function (categoryList) {
+                    //定义字符串变量
+                    var html = "";
+                    //拼接固定首页
+                    html += `<li class="nav-active"><a href="index.html">首页</a></li>`;
+
+                    //遍历类别数组，拼接每个类别
+                    for (var category of categoryList) {
+                        var cid = category.cid;
+                        html += `<li><a href="route_list.html?cid=` + cid + `">${category.cname}</a></li>`;
+                    }
+
+                    //拼接固定的收藏排行榜
+                    html += `<li><a href="favoriterank.html">收藏排行榜</a></li>`;
+
+                    //将拼接好的字符串更新到class='nav'里面
+                    $(".nav").html(html);
+                },
+                error: function (error) {
+                    console.log(error);
+                    alert("服务器忙，请稍后再试....")
+                }
+            });
+
+        });
+
+        //4.搜索函数
+        function searchRoute() {
+            //获取rname
+            var rname = $("#rname").val();
+            showData(cid, rname, 1, 3);
+        }
+
+    </script>
+</head>
+<body>
+<!-- 头部 start -->
+<header id="header">
+    <div class="top_banner">
+        <img src="images/top_banner.jpg" alt="">
+    </div>
+    <div class="shortcut">
+        <!-- 未登录状态  -->
+        <div class="login_out">
+            <a href="login.html">登录</a>
+            <a href="register.html">注册</a>
+        </div>
+        <!-- 登录状态  -->
+        <div class="login">
+            <span>欢迎回来，admin</span>
+            <a href="#" class="collection" id="myFavorite">我的收藏</a>
+            <a href="UserServlet?action=loginOut">退出</a>
+        </div>
+    </div>
+    <div class="header_wrap">
+        <div class="topbar">
+            <div class="logo">
+                <a href="/"><img src="images/logo.jpg" alt=""></a>
+            </div>
+            <div class="search">
+                <input name="rname" id="rname" type="text" placeholder="请输入路线名称" class="search_input"
+                       autocomplete="off">
+                <a href="javascript:searchRoute();" class="search-button">搜索</a>
+            </div>
+            <div class="hottel">
+                <div class="hot_pic">
+                    <img src="images/hot_tel.jpg" alt="">
+                </div>
+                <div class="hot_tel">
+                    <p class="hot_time">客服热线(9:00-6:00)</p>
+                    <p class="hot_num">400-618-9090</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- 头部 end -->
+<!-- 首页导航 -->
+<div class="navitem">
+    <ul class="nav"></ul>
+</div>
+
+</body>
+</html>

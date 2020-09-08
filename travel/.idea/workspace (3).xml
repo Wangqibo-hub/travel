@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="login_demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97ff6093-ad90-475c-bb2e-6cc555d6daee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="mybatismapper" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Software_development\Code_Software\WebServe\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Code_Software/WebServe/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Software_development\Code_Software\WebServe\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1cXLCpYMUoP03VFV1MVr24hRQKf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../travel_admin/src/main/webapp/plugins/jQuery" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Software_development\Workspace\Idea_Projects\travel_admin\src\main\webapp\plugins\jQuery" />
+      <recent name="D:\Software_development\Workspace\Idea_Projects\java_web\login_demo\src\main\resources" />
+      <recent name="D:\Software_development\Workspace\Idea_Projects\travel_admin\src\main\webapp\pages" />
+      <recent name="D:\Software_development\Workspace\Idea_Projects\travel_admin\src\main\java\com\itheima\admin\web\filter" />
+      <recent name="D:\Software_development\Workspace\Idea_Projects\travel_admin\src\main\java\com\itheima\admin\web\servlet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.travel.service.impl" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.login.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.travel [tomcat7:run]">
+    <configuration name="JedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="travel_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ithiema.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ithiema.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ithiema.test.JedisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="travel_user" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="travel_user" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="travel [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="travel_admin [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../travel_admin" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.27" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login_demo_war_exploded/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="login_demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/login_demo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_travel" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53387" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="login_demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JedisTest.test" />
+      <item itemvalue="Maven.travel [tomcat7:run]" />
+      <item itemvalue="Maven.travel_admin [tomcat7:run]" />
+      <item itemvalue="Tomcat Server.Tomcat8" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JedisTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19205298" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Lenovo\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97ff6093-ad90-475c-bb2e-6cc555d6daee" name="Default Changelist" comment="" />
+      <created>1590669866409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590669866409</updated>
+      <workItem from="1590669869619" duration="2422000" />
+      <workItem from="1590676981497" duration="1191000" />
+      <workItem from="1590747066283" duration="19191000" />
+      <workItem from="1590803797173" duration="163000" />
+      <workItem from="1590835354129" duration="1278000" />
+      <workItem from="1590846030251" duration="138000" />
+      <workItem from="1590846844658" duration="5820000" />
+      <workItem from="1590889666054" duration="18552000" />
+      <workItem from="1590933016147" duration="467000" />
+      <workItem from="1590977111080" duration="174000" />
+      <workItem from="1591006737886" duration="89000" />
+      <workItem from="1591013182317" duration="11533000" />
+      <workItem from="1591062936011" duration="202000" />
+      <workItem from="1591098730550" duration="10774000" />
+      <workItem from="1591143153273" duration="3733000" />
+      <workItem from="1591179350328" duration="9902000" />
+      <workItem from="1591234977563" duration="5512000" />
+      <workItem from="1591257175066" duration="5830000" />
+      <workItem from="1591362714645" duration="6758000" />
+      <workItem from="1591370993418" duration="775000" />
+      <workItem from="1591407671307" duration="7079000" />
+      <workItem from="1591435201311" duration="12589000" />
+      <workItem from="1591495981071" duration="1924000" />
+      <workItem from="1591754843170" duration="4000" />
+      <workItem from="1591839948675" duration="2627000" />
+      <workItem from="1591863999715" duration="288000" />
+      <workItem from="1591868601928" duration="518000" />
+    </task>
+    <task id="LOCAL-00001" summary="实现用户注册、用户登录、用户退出、异步校验用户名功能">
+      <created>1590803949041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590803949041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BaseServlet优化">
+      <created>1590837308883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590837308883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="旅游线路详情、面向接口编程、收藏按钮显示">
+      <created>1591063135168</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591063135168</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加收藏、backurl、收藏排行榜、多条件筛选">
+      <created>1591150143087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591150143087</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现用户注册、用户登录、用户退出、异步校验用户名功能" />
+    <MESSAGE value="BaseServlet优化" />
+    <MESSAGE value="旅游线路详情、面向接口编程、收藏按钮显示" />
+    <MESSAGE value="添加收藏、backurl、收藏排行榜、多条件筛选" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加收藏、backurl、收藏排行榜、多条件筛选" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1590670558785">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1590670558785" />
+    <state x="371" y="99" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591144693039">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="99" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1591144693039" />
+    <state x="321" y="195" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1590678147351">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="195" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1280.680@0.0.1280.680" timestamp="1590678147351" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591261295562">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1591261295562" />
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1591496705787">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1591496705787" />
+    <state x="371" y="122" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591259729654">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="122" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1591259729654" />
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591409691325">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="91" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1591409691325" />
+    <state x="217" y="0" key="#travel_[tomcat7:run]" timestamp="1590671083264">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="217" y="0" key="#travel_[tomcat7:run]/0.0.1280.680@0.0.1280.680" timestamp="1590671083264" />
+    <state x="233" y="0" key="#travel_admin_[tomcat7:run]" timestamp="1591182698400">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#travel_admin_[tomcat7:run]/0.0.1280.680@0.0.1280.680" timestamp="1591182698400" />
+    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1591150139391">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1591150139391" />
+    <state x="399" y="62" key="FileChooserDialogImpl" timestamp="1591868864945">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="399" y="62" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591868864945" />
+    <state width="1237" height="487" key="GridCell.Tab.0.bottom" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="1237" height="487" key="GridCell.Tab.0.center" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="1237" height="487" key="GridCell.Tab.0.left" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="1237" height="487" key="GridCell.Tab.0.right" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="1237" height="487" key="GridCell.Tab.1.bottom" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="1237" height="487" key="GridCell.Tab.1.center" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="1237" height="487" key="GridCell.Tab.1.left" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="1237" height="487" key="GridCell.Tab.1.right" timestamp="1591497913339">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="487" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1591497913339" />
+    <state width="975" height="333" key="GridCell.Tab.2.bottom" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state width="975" height="333" key="GridCell.Tab.2.center" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state width="975" height="333" key="GridCell.Tab.2.left" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state width="975" height="333" key="GridCell.Tab.2.right" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state width="975" height="333" key="GridCell.Tab.3.bottom" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state width="975" height="333" key="GridCell.Tab.3.center" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state width="975" height="333" key="GridCell.Tab.3.left" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state width="975" height="333" key="GridCell.Tab.3.right" timestamp="1591263033518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="975" height="333" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1591263033518" />
+    <state x="18" y="0" width="1235" height="680" key="SettingsEditor" timestamp="1591868865689">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="18" y="0" width="1235" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1591868865689" />
+    <state x="28" y="45" key="new project wizard" timestamp="1591868721736">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="45" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1591868721736" />
+    <state x="421" y="240" key="svn.passwordDialog" timestamp="1590671886610">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="240" key="svn.passwordDialog/0.0.1280.680@0.0.1280.680" timestamp="1590671886610" />
+    <state x="441" y="30" width="411" height="621" key="svn.repositoryBrowser" timestamp="1590671900454">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="441" y="30" width="411" height="621" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1590671900454" />
+    <state x="450" y="245" key="svn.upgradeDialog" timestamp="1590671902036">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="245" key="svn.upgradeDialog/0.0.1280.680@0.0.1280.680" timestamp="1590671902036" />
+  </component>
+</project>

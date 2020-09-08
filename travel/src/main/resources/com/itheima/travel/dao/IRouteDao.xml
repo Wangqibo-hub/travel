@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itheima.travel.dao.IRouteDao">
+    
+    <select id="count" resultType="int">
+        select count(*) from tab_route
+        <where>
+            <if test="cid!=null and cid!=''">
+                and cid = #{cid}
+            </if>
+            <if test="rname!=null and rname!=''">
+                and rname like CONCAT('%',#{rname},'%')
+            </if>
+        </where>
+    </select>
+
+    <select id="findByPage" resultType="Route">
+        select * from tab_route
+        <where>
+            <if test="cid!=null and cid!=''">
+                and cid = #{cid}
+            </if>
+            <if test="rname!=null and rname!=''">
+                and rname like CONCAT('%',#{rname},'%')
+            </if>
+        </where>
+        limit #{start},#{length}
+    </select>
+
+    <sql id="searchCondition">
+        <where>
+            <if test="map.rname != null and map.rname != ''">
+                and rname like CONCAT('%',#{map.rname},'%')
+            </if>
+            <if test="map.minPrice != null and map.minPrice != ''">
+                and price >= #{map.minPrice}
+            </if>
+            <if test="map.maxPrice != null and map.maxPrice != ''">
+                and price &lt;= #{map.maxPrice}
+            </if>
+        </where>
+    </sql>
+    
+    <select id="countForFavorite" resultType="int">
+        SELECT COUNT(*) FROM tab_route
+        <include refid="searchCondition"></include>
+    </select>
+
+    <select id="findFavoriteRankByPage" resultType="Route">
+        SELECT * FROM tab_route
+        <include refid="searchCondition"></include>
+        ORDER BY `count` DESC LIMIT #{start},#{length}
+    </select>
+
+</mapper>

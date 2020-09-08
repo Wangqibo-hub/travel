@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>黑马旅游网-登录1</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <!--导入jquery-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--导入json转换js-->
+    <script src="js/json.js"></script>
+    <!--导入地址栏解析数据插件getParameter-->
+    <script type="text/javascript" src="js/getParameter.js"></script>
+    <script type="text/javascript">
+
+        //获取backUrl
+        var backurl = getParameter("backurl");
+
+        //页面加载完成事件
+        $(function () {
+            //目标：获取表单数据提交给后端验证
+            //1. 登录按钮注册点击事件
+            $("#loginBtn").click(function () {
+                //2. 获取表单数据(username/password/checkCode)
+                var usernameVal = $(":text[name=username]").val();
+                var passwordVal = $(":password[name=password]").val();
+                var checkCodeVal = $(":text[name=check]").val();
+                var action = "login";
+
+                //3. 提交登录异步请求
+                $.post({
+                    url:"UserServlet",
+                    data:{
+                        username:usernameVal,
+                        password:passwordVal,
+                        checkCode:checkCodeVal,
+                        action:action
+                    },
+                    //4. 获取返回的数据
+                    success:function (result) {
+                        //4.1 成功，返回true跳转到index.html
+                        if (result == "true") {
+                            if (backurl != null) {
+                                location.href = backurl;
+                            } else {
+                                location.href = "index.html";
+                            }
+                        } else {
+                            //4.2 成功，返回自定义异常，显示到页面
+                            $("#errorMsg").text(result);
+                            //刷新验证码
+                            $("#checkCodeImg").click();
+                        }
+                    },
+                    error:function (error) {
+                        //4.3 失败，弹窗显示信息（服务器忙）
+                        console.log(error);
+                        alert("服务器忙，请稍后再试...");
+                        //刷新验证码
+                        $("#checkCodeImg").click();
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<!--引入头部-->
+<div id="header"></div>
+<!-- 头部 end -->
+<section id="login_wrap">
+    <div class="fullscreen-bg" style="background: url(images/login_bg.png);height: 532px;">
+    </div>
+    <div class="login-box">
+        <div class="title">
+            <img src="images/login_logo.png" alt="">
+            <span>欢迎登录黑马旅游账户</span>
+        </div>
+        <div class="login_inner">
+            <!--登录错误提示消息-->
+            <div id="errorMsg" class="alert alert-danger" ></div>
+            <form id="loginForm" method="post">
+                <input name="username" type="text" placeholder="请输入账号" autocomplete="off">
+                <input name="password" type="password" placeholder="请输入密码" autocomplete="off">
+                <div class="verify">
+                    <input name="check" type="text" placeholder="请输入验证码" autocomplete="off">
+                    <span><img id="checkCodeImg" src="checkCode" alt="" onclick="changeCheckCode(this)"></span>
+                    <script type="text/javascript">
+                        //图片点击事件
+                        function changeCheckCode(img) {
+                            img.src="checkCode?"+new Date().getTime();
+                        }
+                    </script>
+                </div>
+                <div class="submit_btn">
+                    <button type="button" id="loginBtn">登录</button>
+                    <div class="auto_login">
+                        <input type="checkbox"  class="checkbox">
+                        <span>自动登录</span>
+                    </div>
+                </div>
+            </form>
+            <div class="reg">没有账户？<a href="javascript:;">立即注册</a></div>
+        </div>
+    </div>
+</section>
+<!--引入尾部-->
+<div id="footer"></div>
+<!--导入布局js，共享header和footer-->
+<script type="text/javascript" src="js/include.js"></script>
+</body>
+</html>

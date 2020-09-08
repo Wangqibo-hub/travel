@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itheima.admin.dao.IRouteDao">
+
+    <sql id="conditionSql">
+        <where>
+            <if test="rname!=null and rname!=''">
+                and rname like concat('%',#{rname},'%')
+            </if>
+        </where>
+    </sql>
+
+    <select id="count" resultType="int">
+        select COUNT(*) from tab_route
+         <include refid="conditionSql"></include>
+    </select>
+
+    <select id="findRouteByPage" resultType="Route">
+        select * from tab_route
+         <include refid="conditionSql"></include>
+         limit #{start},#{length}
+    </select>
+
+    <select id="findRouteById" resultType="Route">
+        select * from  tab_route where rid=#{rid}
+    </select>
+
+    <update id="updateRoute">
+        update tab_route
+        set rname=#{rname},
+            price=#{price},
+            routeIntroduce=#{routeIntroduce},
+            rflag=#{rflag},
+            cid=#{cid}
+        where rid=#{rid}
+    </update>
+
+    <delete id="deleteRoute">
+        delete from tab_route where rid=#{rid}
+    </delete>
+
+    <delete id="deleteMultipleRoute">
+        delete from tab_route where rid in
+         <foreach collection="array" open="(" close=")" item="rid" separator=",">
+             #{rid}
+         </foreach>
+    </delete>
+
+    <insert id="addRoute">
+        insert into tab_route
+        values(null,#{rname},#{price},#{routeIntroduce},
+        #{rflag},#{rdate},#{isThemeTour},#{count},#{cid},#{rimage},#{sid},null)
+    </insert>
+
+</mapper>
